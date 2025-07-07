@@ -66,4 +66,4 @@ Berikut beberapa tampilan aplikasi:
   <img src="app/docs/EditNote.jpg" alt="Edit Catatan" width="300"/>
 
 - **Hapus Catatan**  
-  <img src="app/docs/DeleteNote.jpg" alt="Hapus
+  <img src="app/docs/DeleteNote.jpg" alt="Hapus Catatan" width="300" />
