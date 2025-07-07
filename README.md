@@ -25,30 +25,6 @@ Aplikasi **pencatatan sederhana** berbasis Android yang dibuat oleh **Kelompok 5
 
 ---
 
-## 📸 Dokumentasi Aplikasi
-
-Berikut beberapa tampilan aplikasi:
-
-- **Splash Screen**
-  ![Splash Screen](app/docs/SpleesScreen.jpg)
-
-- **Home (Jika Tidak Ada Catatan)**
-  ![Home Kosong](app/docs/HomeJikaTidakAdaNote.jpg)
-
-- **Home (Jika Ada Catatan)**
-  ![Home Ada Catatan](app/docs/HomeJikaAdaNote.jpg)
-
-- **Tambah Catatan**
-  ![Tambah Catatan](app/docs/AddNote.jpg)
-
-- **Edit Catatan**
-  ![Edit Catatan](app/docs/EditNote.jpg)
-
-- **Hapus Catatan**
-  ![Hapus Catatan](app/docs/DeleteNote.jpg)
-
----
-
 ## ▶️ Cara Menjalankan Proyek
 
 1. **Clone repository ini:**
@@ -69,3 +45,25 @@ Berikut beberapa tampilan aplikasi:
    - Aplikasi siap digunakan di perangkat Anda.
 
 ---
+
+## 📸 Dokumentasi Aplikasi
+
+Berikut beberapa tampilan aplikasi:
+
+- **Splash Screen**  
+  <img src="app/docs/SpleesScreen.jpg" alt="Splash Screen" width="300"/>
+
+- **Home (Jika Tidak Ada Catatan)**  
+  <img src="app/docs/HomeJikaTidakAdaNote.jpg" alt="Home Kosong" width="300"/>
+
+- **Home (Jika Ada Catatan)**  
+  <img src="app/docs/HomeJikaAdaNote.jpg" alt="Home Ada Catatan" width="300"/>
+
+- **Tambah Catatan**  
+  <img src="app/docs/AddNote.jpg" alt="Tambah Catatan" width="300"/>
+
+- **Edit Catatan**  
+  <img src="app/docs/EditNote.jpg" alt="Edit Catatan" width="300"/>
+
+- **Hapus Catatan**  
+  <img src="app/docs/DeleteNote.jpg" alt="Hapus
