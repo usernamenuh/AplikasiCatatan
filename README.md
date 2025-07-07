@@ -31,4 +31,4 @@ Aplikasi **pencatatan sederhana** berbasis Android yang dibuat oleh **Kelompok 5
 1. **Clone repository ini:**
 
 ```bash
-git@github.com:usernamenuh/AplikasiCatatan.git
+git clone https://github.com/usernamenuh/AplikasiCatatan.git
