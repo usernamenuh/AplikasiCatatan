@@ -25,14 +25,10 @@ Aplikasi **pencatatan sederhana** berbasis Android yang dibuat oleh **Kelompok 5
 
 ---
 
-## 📂 Struktur Direktori
-
-
----
 
 ## ▶️ Cara Menjalankan Proyek
 
 1. **Clone repository ini:**
 
 ```bash
-git clone https://github.com/USERNAME/k5n-notes-app.git
+git@github.com:usernamenuh/AplikasiCatatan.git
