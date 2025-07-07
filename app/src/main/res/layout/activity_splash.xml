@@ -25,14 +25,16 @@
         android:id="@+id/teamText"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_marginTop="280dp"
-        android:text="KELOMPOK 5"
+        android:layout_marginTop="100dp"
+        android:fontFamily="@font/poppins"
+        android:text="Kelompok 5"
         android:textColor="@android:color/black"
         android:textSize="16sp"
-        android:textStyle="bold"
+        android:textStyle="normal"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@id/splashIcon" />
+        app:layout_constraintTop_toBottomOf="@id/splashIcon"
+        app:layout_constraintVertical_bias="0.815" />
 
 </androidx.constraintlayout.widget.ConstraintLayout>
