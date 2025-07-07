@@ -30,22 +30,22 @@ Aplikasi **pencatatan sederhana** berbasis Android yang dibuat oleh **Kelompok 5
 Berikut beberapa tampilan aplikasi:
 
 - **Splash Screen**
-  ![Splash Screen](docs/SpleesScreen.jpg)
+  ![Splash Screen](app/docs/SpleesScreen.jpg)
 
 - **Home (Jika Tidak Ada Catatan)**
-  ![Home Kosong](docs/HomeJikaTidakAdaNote.jpg)
+  ![Home Kosong](app/docs/HomeJikaTidakAdaNote.jpg)
 
 - **Home (Jika Ada Catatan)**
-  ![Home Ada Catatan](docs/HomeJikaAdaNote.jpg)
+  ![Home Ada Catatan](app/docs/HomeJikaAdaNote.jpg)
 
 - **Tambah Catatan**
-  ![Tambah Catatan](docs/AddNote.jpg)
+  ![Tambah Catatan](app/docs/AddNote.jpg)
 
 - **Edit Catatan**
-  ![Edit Catatan](docs/EditNote.jpg)
+  ![Edit Catatan](app/docs/EditNote.jpg)
 
 - **Hapus Catatan**
-  ![Hapus Catatan](docs/DeleteNote.jpg)
+  ![Hapus Catatan](app/docs/DeleteNote.jpg)
 
 ---
 
