@@ -13,6 +13,5 @@ class NoteRepository(private val db: NoteDatabase) {
 
     fun getAllNotes() = db.getNoteDao().getAllNotes()
 
-    // Pastikan query tidak null saat dipanggil
     fun searchNote(query: String) = db.getNoteDao().searchNote(query)
 }

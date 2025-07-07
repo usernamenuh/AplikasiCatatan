@@ -42,7 +42,7 @@ class EditNoteFragment : Fragment(R.layout.fragment_edit_note), MenuProvider {
 
         notesViewModel = (activity as MainActivity).noteViewModel
 
-        // ✅ Cek apakah sedang dalam mode edit atau tambah baru
+        
         currentNote = args.note
         currentNote?.let { note ->
             binding.editNoteTitle.setText(note.noteTitle)
@@ -92,7 +92,6 @@ class EditNoteFragment : Fragment(R.layout.fragment_edit_note), MenuProvider {
         menu.clear()
         menuInflater.inflate(R.menu.menu_edit_note, menu)
 
-        // Sembunyikan menu delete kalau ini catatan baru
         if (currentNote == null) {
             menu.findItem(R.id.deleteMenu)?.isVisible = false
         }

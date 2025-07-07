@@ -34,7 +34,6 @@ class AddNoteFragment : Fragment(R.layout.fragment_add_note), MenuProvider {
 
         noteViewModel = (activity as MainActivity).noteViewModel
 
-        // Tambahkan menu provider jika ingin, walau di AddNote ini belum digunakan
         val menuHost: MenuHost = requireActivity()
         menuHost.addMenuProvider(this, viewLifecycleOwner, Lifecycle.State.RESUMED)
 
@@ -48,7 +47,7 @@ class AddNoteFragment : Fragment(R.layout.fragment_add_note), MenuProvider {
         val noteDesc = binding.addNoteDesc.text.toString().trim()
 
         if (noteTitle.isNotEmpty()) {
-            val note = Note(0, noteTitle, noteDesc) // id = 0 karena akan auto-generate
+            val note = Note(0, noteTitle, noteDesc)
             noteViewModel.addNote(note)
             Toast.makeText(requireContext(), "Note saved", Toast.LENGTH_SHORT).show()
             view.findNavController().popBackStack(R.id.homeFragment, false)
@@ -58,7 +57,7 @@ class AddNoteFragment : Fragment(R.layout.fragment_add_note), MenuProvider {
     }
 
     override fun onCreateMenu(menu: Menu, menuInflater: MenuInflater) {
-        // Tidak ada menu khusus di AddNote
+       
     }
 
     override fun onMenuItemSelected(menuItem: MenuItem): Boolean = false

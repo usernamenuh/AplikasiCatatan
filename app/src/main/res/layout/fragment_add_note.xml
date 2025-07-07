@@ -50,7 +50,7 @@
             android:padding="12dp"
             android:textSize="18sp" />
 
-        <!-- ✅ Tambahkan FloatingActionButton di sini -->
+        <!-- FloatingActionButton -->
         <com.google.android.material.floatingactionbutton.FloatingActionButton
             android:id="@+id/addNoteFab"
             android:layout_width="wrap_content"

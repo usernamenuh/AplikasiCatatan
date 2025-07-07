@@ -9,7 +9,7 @@ import kotlinx.parcelize.Parcelize
 @Entity(tableName = "notes")
 data class Note(
     @PrimaryKey(autoGenerate = true)
-    val id: Int = 0, // ✅ penting: jangan nullable, harus 0 default
+    val id: Int = 0, 
     val noteTitle: String,
     val noteDesc: String,
     val timestamp: Long = System.currentTimeMillis()
